@@ -11,7 +11,8 @@ import javax.persistence.*;
 public class Member {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private long id;
+    private Long user_num;
+    private String id;
     private String pw;
     private String name;
     private String email;
